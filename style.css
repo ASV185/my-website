@@ -1,11 +1,18 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --brading-color: #251342;
+  --primary-color: #622a55;
+  --secondary-color: #9c416e;
+  --third-color: #d07b95;
+  --accent-color: #eabeb4;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+nav {
+  background: var(--brading-color);
+}
 body {
   margin: 100px 0;
+  background: var(--brading-color);
 }
 
 h1,
@@ -14,16 +21,27 @@ h3 {
   margin: 0;
 }
 
+.hero {
+  background: var(--brading-color);
+  box-shadow: var(--box-shadow);
+}
+
 h1 {
   font-size: 96px;
+  color: var(--accent-color);
+  box-shadow: var(--accent-color);
+  opacity: 0.7;
 }
 
 h2 {
   font-size: 48px;
+  color: var(--third-color);
 }
 
 h3 {
   font-size: 24px;
+  opacity: 0.7;
+  color: var(--secondary-color);
   opacity: 0.7;
 }
 
