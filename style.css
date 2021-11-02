@@ -8,7 +8,6 @@
 }
 
 body {
-  margin: 100px 0;
   background: var(--third-color);
 }
 
@@ -66,7 +65,7 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  background: var(--primary-color);
+  background: var(--brading-color);
   box-shadow: var(--box-shadow);
   color: white;
 }
@@ -76,12 +75,12 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  color: var(--brading-color);
+  border: 1px solid var(--third-color);
 }
 
 .homepage-link {
-  color: var(--primary-color);
+  color: var(--third-color);
   text-align: center;
   display: block;
 }
@@ -110,8 +109,14 @@ p {
   color: white;
 }
 
-i {
+h4 i {
   font-size: 50px;
+}
+
+.container-fluid a {
+  font-family: "Rochester", cursive;
+  font-weight: bolder;
+  text-shadow: var(--box-shadow);
 }
 
 @media (max-width: 576px) {
