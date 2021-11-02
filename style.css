@@ -1,18 +1,15 @@
 :root {
-  --brading-color: #251342;
-  --primary-color: #622a55;
-  --secondary-color: #9c416e;
-  --third-color: #d07b95;
-  --accent-color: #eabeb4;
+  --brading-color: hsl(213, 10%, 21%);
+  --primary-color: #717d8c;
+  --secondary-color: #85a3c5;
+  --third-color: #cdcdcd;
+  --accent-color: black;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-nav {
-  background: var(--brading-color);
-}
 body {
   margin: 100px 0;
-  background: var(--brading-color);
+  background: var(--third-color);
 }
 
 h1,
@@ -22,7 +19,7 @@ h3 {
 }
 
 .hero {
-  background: var(--brading-color);
+  background: var(--primary-color);
   box-shadow: var(--box-shadow);
 }
 
@@ -31,18 +28,22 @@ h1 {
   color: var(--accent-color);
   box-shadow: var(--accent-color);
   opacity: 0.7;
+  font-family: "Fredericka the Great", cursive;
 }
 
 h2 {
-  font-size: 48px;
-  color: var(--third-color);
+  font-size: 40px;
+  color: var(--accent-color);
+  opacity: 0.7;
+  font-family: "Nanum Myeongjo", serif;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 27px;
+  color: var(--accent-color);
   opacity: 0.7;
-  color: var(--secondary-color);
-  opacity: 0.7;
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: bold;
 }
 
 p {
