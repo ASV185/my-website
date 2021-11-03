@@ -263,6 +263,33 @@ i {
   color: var(--secondary-color);
 }
 
+.navigation {
+  background: var(--brading-color);
+  padding: 20px;
+}
+
+.navigation li {
+  font-size: 15px;
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: bold;
+  color: var(--secondary-color);
+  padding: 10px;
+}
+
+footer {
+  font-size: 15px;
+  background-color: var(--brading-color);
+  color: var(--secondary-color);
+  text-align: center;
+  padding: 20px;
+}
+
+footer i {
+  display: block;
+  margin: 0;
+  font-size: 15px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
