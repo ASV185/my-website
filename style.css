@@ -162,6 +162,74 @@ img .avatar {
   margin-bottom: 15px;
 }
 
+.html i {
+  color: #dd4b25;
+}
+
+.css i {
+  color: #264de4;
+}
+
+.javascript {
+  color: #f0db4f;
+}
+
+.react {
+  color: #61dbfb;
+}
+
+.seo {
+  color: #4181ee;
+}
+
+.hosting {
+  color: #4181ee;
+}
+
+.flexbox {
+  color: #005cf2;
+}
+
+.responsive {
+  color: #5b5b5b;
+}
+
+.bootstrap {
+  color: #8712f7;
+}
+
+.invision {
+  color: #f73161;
+}
+
+.api {
+  color: #49667d;
+}
+
+.mozilla {
+  color: #5b5b5b;
+}
+
+.fontawesome {
+  color: #2186df;
+}
+
+.npm {
+  color: #c53635;
+}
+
+.figma {
+  color: #0ac97f;
+}
+
+i {
+  display: block;
+  margin: 0;
+  font-size: 70px;
+  text-align: center;
+  margin: 20px auto;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
