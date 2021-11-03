@@ -278,6 +278,7 @@ i {
 
 footer {
   font-size: 15px;
+  font-family: "Nanum Myeongjo", serif;
   background-color: var(--brading-color);
   color: var(--secondary-color);
   text-align: center;
