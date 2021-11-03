@@ -293,6 +293,7 @@ footer i {
   display: block;
   margin: 0;
   font-size: 15px;
+  padding: 0;
 }
 
 @media (max-width: 576px) {
