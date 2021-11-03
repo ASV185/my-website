@@ -20,6 +20,7 @@ h3 {
 .hero {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
+  font-size: 50px;
 }
 
 h1 {
@@ -48,6 +49,11 @@ h3 {
 p {
   font-size: 18px;
   line-height: 1.5;
+}
+
+.arrow {
+  background: var(--secondary-color);
+  color: var(--accent-color);
 }
 
 .navigation-links {
@@ -107,10 +113,6 @@ p {
 
 .primary-link:hover {
   color: white;
-}
-
-h4 i {
-  font-size: 50px;
 }
 
 .container-fluid a {
