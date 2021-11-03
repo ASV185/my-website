@@ -302,7 +302,7 @@ footer i {
   padding: 0;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 800px) {
   h1 {
     font-size: 48px;
     line-height: 1.5;
@@ -320,5 +320,37 @@ footer i {
     display: block;
     text-align: center;
     margin: 0 20px;
+  }
+
+  .tools i {
+    display: none;
+  }
+
+  .skills i {
+    display: none;
+  }
+
+  .name-skill {
+    display: inline-block;
+    color: var(--brading-color);
+    text-shadow: var(--box-shadow);
+    font-family: "Nanum Myeongjo", serif;
+    border: 3px solid var(--brading-color);
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .name-tool {
+    display: inline-block;
+    color: var(--brading-color);
+    text-shadow: var(--box-shadow);
+    font-family: "Nanum Myeongjo", serif;
+    border: 3px solid var(--brading-color);
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 15px;
   }
 }
