@@ -280,6 +280,11 @@ i {
   text-shadow: var(--box-shadow);
 }
 
+.navigation li:hover {
+  color: var(--third-color);
+  cursor: pointer;
+}
+
 footer {
   font-size: 15px;
   font-family: "Nanum Myeongjo", serif;
