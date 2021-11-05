@@ -70,6 +70,17 @@ p {
   margin: 20px;
 }
 
+.projects-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  margin: 50px;
+}
+
 .primary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -156,13 +167,6 @@ p {
   font-size: 17px;
   text-align: center;
   font-weight: bold;
-}
-
-img .avatar {
-  display: block;
-  margin: 0;
-  text-align: right;
-  font-size: 100px;
 }
 
 .certificates {
@@ -309,6 +313,13 @@ footer i {
   font-family: "Nanum Myeongjo", serif;
   font-size: 17px;
   text-shadow: var(--box-shadow);
+}
+
+.contact {
+  background: var(--branding-color);
+  display: block;
+  margin: 0;
+  padding: 50px;
 }
 
 @media (max-width: 800px) {
