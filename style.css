@@ -305,6 +305,12 @@ footer i {
   padding: 0;
 }
 
+.container-fluid ul li a {
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 17px;
+  text-shadow: var(--box-shadow);
+}
+
 @media (max-width: 800px) {
   h1 {
     font-size: 48px;
