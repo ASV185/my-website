@@ -274,16 +274,16 @@ i {
   padding: 20px;
 }
 
-.navigation li {
+.navigation a {
   font-size: 20px;
   font-family: "Nanum Myeongjo", serif;
   font-weight: bold;
   color: var(--secondary-color);
-  padding: 10px;
   text-shadow: var(--box-shadow);
+  text-decoration: none;
 }
 
-.navigation li:hover {
+.navigation a:hover {
   color: var(--third-color);
   cursor: pointer;
 }
