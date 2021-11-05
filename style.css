@@ -1,5 +1,5 @@
 :root {
-  --brading-color: hsl(213, 10%, 21%);
+  --branding-color: hsl(213, 10%, 21%);
   --primary-color: #717d8c;
   --secondary-color: #85a3c5;
   --third-color: #cdcdcd;
@@ -9,6 +9,10 @@
 
 body {
   background: var(--third-color);
+}
+
+nav {
+  box-shadow: var(--box-shadow);
 }
 
 h1,
@@ -71,7 +75,7 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  background: var(--brading-color);
+  background: var(--branding-color);
   box-shadow: var(--box-shadow);
   color: white;
 }
@@ -81,7 +85,7 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  color: var(--brading-color);
+  color: var(--branding-color);
   border: 1px solid var(--third-color);
 }
 
@@ -261,12 +265,12 @@ i {
   text-align: center;
   font-size: 70px;
   font-weight: bolder;
-  background: var(--brading-color);
+  background: var(--branding-color);
   color: var(--secondary-color);
 }
 
 .navigation {
-  background: var(--brading-color);
+  background: var(--branding-color);
   padding: 20px;
 }
 
@@ -287,7 +291,7 @@ i {
 footer {
   font-size: 15px;
   font-family: "Nanum Myeongjo", serif;
-  background-color: var(--brading-color);
+  background-color: var(--branding-color);
   color: var(--secondary-color);
   text-align: center;
   padding: 20px;
@@ -331,10 +335,10 @@ footer i {
 
   .name-skill {
     display: inline-block;
-    color: var(--brading-color);
+    color: var(--branding-color);
     text-shadow: var(--box-shadow);
     font-family: "Nanum Myeongjo", serif;
-    border: 3px solid var(--brading-color);
+    border: 3px solid var(--branding-color);
     padding: 10px;
     margin: 10px;
     font-weight: bold;
@@ -343,10 +347,10 @@ footer i {
 
   .name-tool {
     display: inline-block;
-    color: var(--brading-color);
+    color: var(--branding-color);
     text-shadow: var(--box-shadow);
     font-family: "Nanum Myeongjo", serif;
-    border: 3px solid var(--brading-color);
+    border: 3px solid var(--branding-color);
     padding: 10px;
     margin: 10px;
     font-weight: bold;
