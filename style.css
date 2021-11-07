@@ -40,6 +40,8 @@ h2 {
   color: var(--accent-color);
   opacity: 0.7;
   font-family: "Nanum Myeongjo", serif;
+  font-weight: bolder;
+  text-shadow: var(--box-shadow);
 }
 
 h3 {
@@ -47,12 +49,33 @@ h3 {
   color: var(--accent-color);
   opacity: 0.7;
   font-family: "Nanum Myeongjo", serif;
-  font-weight: bold;
+  font-weight: bolder;
+  text-shadow: var(--box-shadow);
 }
 
 p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
+  font-weight: bold;
+  padding: 15px;
+  font-family: "Zen Old Mincho", serif;
+}
+
+.about-section {
+  padding: 80px 20px;
+}
+
+.description {
+  font-family: "Zen Old Mincho", serif;
+  font-weight: 600px;
+  color: var(--accent-color);
+}
+
+.name {
+  font-family: "Zen Old Mincho", serif;
+  font-weight: 700px;
+  color: var(--accent-color);
+  font-size: 60px;
 }
 
 .arrow {
@@ -68,6 +91,16 @@ p {
 
 .navigation-links a {
   margin: 20px;
+}
+.projects-link {
+  border-radius: 4px;
+  padding: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  margin: 15px;
 }
 
 .primary-link {
@@ -311,6 +344,11 @@ footer i {
   padding: 50px;
 }
 
+img .self-image {
+  text-align: right;
+  font-size: 400px;
+}
+
 @media (max-width: 800px) {
   h1 {
     font-size: 48px;
@@ -323,12 +361,6 @@ footer i {
   }
   p {
     text-align: center;
-  }
-
-  .project-link {
-    display: block;
-    text-align: center;
-    margin: 0 20px;
   }
 
   .tools i {
@@ -361,5 +393,15 @@ footer i {
     margin: 10px;
     font-weight: bold;
     font-size: 15px;
+  }
+
+  .about-section img .self-image {
+    font-size: 500px;
+  }
+
+  .projects-link {
+    padding: 20px 62px;
+    font-size: 20px;
+    text-shadow: var(--box-shadow);
   }
 }
