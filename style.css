@@ -403,5 +403,29 @@ img .self-image {
     padding: 20px 62px;
     font-size: 20px;
     text-shadow: var(--box-shadow);
+    background: var(--secondary-color);
+  }
+
+  .name {
+    font-size: 40px;
+    text-align: center;
+    margin: none;
+  }
+
+  .description {
+    font-size: 25px;
+    text-align: center;
+    margin: none;
+  }
+
+  .about-section {
+    margin: none;
+    padding: 20px;
+  }
+
+  .about-section-content {
+    font-size: 15px;
+    text-align: left;
+    margin: 10px;
   }
 }
