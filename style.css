@@ -349,6 +349,18 @@ img .self-image {
   font-size: 400px;
 }
 
+.instagram {
+  color: var(--branding-color);
+}
+
+.github {
+  color: var(--branding-color);
+}
+
+.linkedin {
+  color: var(--branding-color);
+}
+
 @media (max-width: 800px) {
   h1 {
     font-size: 48px;
