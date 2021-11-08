@@ -115,11 +115,13 @@ p {
 }
 
 .email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
+  color: var(--accent-color);
+  font-size: 17px;
   text-decoration: none;
+  text-align: center;
+  line-height: 1;
+  font-weight: bold;
+  font-family: "Nanum Myeongjo", serif;
 }
 
 .email-link:hover {
@@ -339,8 +341,18 @@ img .self-image {
   color: var(--branding-color);
 }
 
-.content p {
+p .content {
   font-size: 20px;
+  margin: none;
+}
+
+.information {
+  margin: none;
+  padding: none;
+  font-size: 20px;
+  border: 2px solid hsl(213, 10%, 21%);
+  background: var(--branding-color);
+  color: var(--third-color);
 }
 
 @media (max-width: 800px) {
