@@ -370,6 +370,18 @@ p .content {
   padding: 20px;
 }
 
+.contact-link {
+  border-radius: 4px;
+  padding: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  margin: 15px;
+  font-size: 15px;
+}
+
 @media (max-width: 800px) {
   h1 {
     font-size: 48px;
@@ -448,5 +460,20 @@ p .content {
     font-size: 15px;
     text-align: left;
     margin: 10px;
+  }
+
+  .contact-title {
+    display: none;
+  }
+
+  .secondary-title {
+    display: none;
+  }
+
+  .contact-link {
+    padding: 20px 62px;
+    font-size: 20px;
+    text-shadow: var(--box-shadow);
+    background: var(--secondary-color);
   }
 }
