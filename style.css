@@ -356,7 +356,7 @@ p .content {
   box-shadow: var(--box-shadow);
   color: white;
   margin: 15px;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 @media (max-width: 800px) {
