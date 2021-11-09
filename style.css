@@ -101,25 +101,6 @@ p {
   font-size: 20px;
 }
 
-.primary-link {
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  background: var(--branding-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-
-.secondary-link {
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  color: var(--branding-color);
-  border: 1px solid var(--third-color);
-}
-
 .social-link {
   color: var(--accent-color);
   font-size: 17px;
@@ -130,12 +111,8 @@ p {
   font-family: "Nanum Myeongjo", serif;
 }
 
-.email-link:hover {
+.social-link:hover {
   text-decoration: underline;
-}
-
-.primary-link:hover {
-  color: white;
 }
 
 .container-fluid a {
@@ -355,11 +332,11 @@ p .content {
 .information {
   margin: none;
   padding: none;
-  font-size: 20px;
-  border: 2px solid var(--branding-color);
+  font-size: 15px;
+  border: 1px solid var(--branding-color);
   background: var(--branding-color);
   color: var(--third-color);
-  padding: 20px;
+  padding: 10px;
 }
 
 .secondary-title {
