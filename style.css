@@ -421,13 +421,6 @@ p .content {
     font-size: 500px;
   }
 
-  .projects-link {
-    padding: 20px 62px;
-    font-size: 20px;
-    text-shadow: var(--box-shadow);
-    background: var(--secondary-color);
-  }
-
   .name {
     font-size: 40px;
     text-align: center;
@@ -464,5 +457,21 @@ p .content {
     font-size: 20px;
     text-shadow: var(--box-shadow);
     background: var(--secondary-color);
+  }
+
+  .website-title {
+    text-align: center;
+  }
+
+  .projects-link {
+    padding: 20px 62px;
+    font-size: 20px;
+    text-shadow: var(--box-shadow);
+    background: var(--secondary-color);
+    text-align: center;
+  }
+
+  .project-img {
+    margin: none;
   }
 }
