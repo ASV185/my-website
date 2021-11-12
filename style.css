@@ -371,6 +371,10 @@ p .content {
   font-size: 15px;
 }
 
+.card {
+  margin: 0;
+}
+
 @media (max-width: 800px) {
   h1 {
     font-size: 48px;
@@ -469,13 +473,5 @@ p .content {
     text-shadow: var(--box-shadow);
     background: var(--secondary-color);
     text-decoration: center;
-  }
-
-  .card {
-    width: none;
-  }
-
-  .card-body {
-    width: 13rem;
   }
 }
