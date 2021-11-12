@@ -371,8 +371,12 @@ p .content {
   font-size: 15px;
 }
 
-.card {
-  margin: 0;
+.credit {
+  font-size: 13px;
+  text-shadow: var(--box-shadow);
+  color: var(--accent-color);
+  padding: 10px;
+  font-family: "Nanum Myeongjo", serif;
 }
 
 @media (max-width: 800px) {
