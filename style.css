@@ -468,10 +468,14 @@ p .content {
     font-size: 20px;
     text-shadow: var(--box-shadow);
     background: var(--secondary-color);
-    text-align: center;
+    text-decoration: center;
   }
 
-  .project-img {
-    margin: none;
+  .card {
+    width: none;
+  }
+
+  .card-body {
+    width: 13rem;
   }
 }
