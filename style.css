@@ -223,7 +223,7 @@ p {
 
 ul {
   list-style: none;
-  font-size: 90px;
+  font-size: 35px;
 }
 
 .communication {
@@ -231,8 +231,9 @@ ul {
   padding: 100px 0;
 }
 
-li {
+li i {
   color: var(--branding-color);
+  font-size: 90px;
 }
 
 li i:hover {
@@ -279,6 +280,7 @@ i {
 .navigation a:hover {
   color: var(--third-color);
   cursor: pointer;
+  text-decoration: solid underline var(--accent-color) 6px;
 }
 
 footer {
