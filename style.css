@@ -266,6 +266,7 @@ i {
 .navigation {
   background: var(--branding-color);
   padding: 20px;
+  position: relative;
 }
 
 .navigation a {
