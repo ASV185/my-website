@@ -53,6 +53,13 @@ h3 {
   text-shadow: var(--box-shadow);
 }
 
+h3 i {
+  font-size: 35px;
+  font-weight: 100px;
+  color: var(--accent-color);
+  text-shadow: var(--box-shadow);
+}
+
 p {
   font-size: 20px;
   line-height: 1.5;
