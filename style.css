@@ -11,10 +11,6 @@ body {
   background: var(--third-color);
 }
 
-nav {
-  box-shadow: var(--box-shadow);
-}
-
 h1,
 h2,
 h3 {
@@ -53,11 +49,21 @@ h3 {
   text-shadow: var(--box-shadow);
 }
 
+h3 a {
+  padding: 0;
+}
+
 h3 i {
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 100px;
-  color: var(--accent-color);
   text-shadow: var(--box-shadow);
+  padding: none;
+  color: var(--branding-color);
+}
+
+h3 i:hover {
+  cursor: pointer;
+  color: var(--third-color);
 }
 
 p {
@@ -123,13 +129,6 @@ p {
 
 .social-link:hover {
   text-decoration: underline;
-}
-
-.container-fluid a {
-  font-family: "Rochester", cursive;
-  font-weight: bolder;
-  text-shadow: var(--box-shadow);
-  font-size: 30px;
 }
 
 .skill i {
@@ -230,7 +229,6 @@ p {
 
 ul {
   list-style: none;
-  font-size: 35px;
 }
 
 .communication {
@@ -259,6 +257,58 @@ i {
   text-shadow: var(--box-shadow);
 }
 
+.navbar {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #85a3c5;
+  box-shadow: var(--box-shadow);
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  text-shadow: var(--box-shadow);
+}
+
+.navbar ul li {
+  width: 120px;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: var(--accent-color);
+  font-family: "Zen Old Mincho", serif;
+}
+
+.active,
+.navbar ul li:hover {
+  background-color: var(--primary-color);
+  border-radius: 3px;
+  text-decoration: none;
+  color: var(--third-color);
+}
+
+.active,
+.navbar ul li a:hover {
+  text-decoration: none;
+  color: var(--third-color);
+}
+
+.navbar span {
+  font-family: "Rochester", cursive;
+  font-size: 30px;
+}
+
+.navbar span .logo {
+  color: var(--accent-color);
+  text-decoration: none;
+  padding: 80px;
+}
+
 .double-arrow {
   text-align: center;
   font-size: 70px;
@@ -268,27 +318,6 @@ i {
 
 .double-arrow i {
   color: var(--secondary-color);
-}
-
-.navigation {
-  background: var(--branding-color);
-  padding: 20px;
-  position: relative;
-}
-
-.navigation a {
-  font-size: 20px;
-  font-family: "Nanum Myeongjo", serif;
-  font-weight: bold;
-  color: var(--secondary-color);
-  text-shadow: var(--box-shadow);
-  text-decoration: none;
-}
-
-.navigation a:hover {
-  color: var(--third-color);
-  cursor: pointer;
-  text-decoration: solid underline var(--accent-color) 6px;
 }
 
 footer {
@@ -306,12 +335,6 @@ footer i {
   margin: 0;
   font-size: 15px;
   padding: 0;
-}
-
-.container-fluid ul li a {
-  font-family: "Nanum Myeongjo", serif;
-  font-size: 17px;
-  text-shadow: var(--box-shadow);
 }
 
 .contact {
