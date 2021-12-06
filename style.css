@@ -136,6 +136,7 @@ p {
   font-size: 70px;
   text-align: center;
   margin: 20px auto;
+  transition: all 4s ease-in-out 0.5;
 }
 
 .skill i:hover {
@@ -151,6 +152,7 @@ p {
   font-size: 70px;
   text-align: center;
   margin: 20px auto;
+  transition: all 4s ease-in-out 0.5;
 }
 
 .tool i:hover {
@@ -179,16 +181,18 @@ p {
 
 .HTML {
   color: #dd4b25;
+  transition: all 4s ease-in-out 0.5;
 }
 
 .HTML:hover {
   display: block;
-  padding: 20px 10px;
+  padding-top: 20px;
   cursor: pointer;
 }
 
 .css i {
   color: #264de4;
+  transition: all 4s ease-in-out 0.5;
 }
 
 .css i:hover {
@@ -199,6 +203,7 @@ p {
 
 .javascript {
   color: #f0db4f;
+  transition: all 4s ease-in-out 0.5;
 }
 
 .javascript:hover {
@@ -209,6 +214,7 @@ p {
 
 .react {
   color: #61dbfb;
+  transition: all 4s ease-in-out 0.5;
 }
 
 .react:hover {
@@ -219,16 +225,18 @@ p {
 
 .seo {
   color: #4181ee;
+  transition: all 4s ease-in-out 0.5;
 }
 
 .seo:hover {
   display: block;
-  padding: 20px 10px;
+  padding-top: 20px;
   cursor: pointer;
 }
 
 .hosting {
   color: #4181ee;
+  transition: all 4s ease-in-out 0.5;
 }
 
 .hosting:hover {
@@ -239,16 +247,18 @@ p {
 
 .flexbox {
   color: #005cf2;
+  transition: all 4s ease-in-out 0.5;
 }
 
 .flexbox:hover {
   display: block;
-  padding: 20px 10px;
+  padding-top: 20px;
   cursor: pointer;
 }
 
 .responsive {
   color: #5b5b5b;
+  transition: all 4s ease-in-out 0.5;
 }
 
 .responsive:hover {
@@ -259,6 +269,7 @@ p {
 
 .bootstrap {
   color: #8712f7;
+  transition: all 4s ease-in-out 0.5;
 }
 
 .bootstrap:hover {
@@ -269,16 +280,18 @@ p {
 
 .invision {
   color: #f73161;
+  transition: all 4s ease-in-out 0.5;
 }
 
 .invision:hover {
   display: block;
-  padding: 20px 10px;
+  padding-top: 20px;
   cursor: pointer;
 }
 
 .api {
   color: #49667d;
+  transition: all 4s ease-in-out 0.5;
 }
 
 .api:hover {
@@ -289,16 +302,18 @@ p {
 
 .mozilla {
   color: #5b5b5b;
+  transition: all 4s ease-in-out 0.5;
 }
 
 .mozilla:hover {
   display: block;
-  padding: 20px 10px;
+  padding-top: 20px;
   cursor: pointer;
 }
 
 .fontawesome {
   color: #2186df;
+  transition: all 4s ease-in-out 0.5;
 }
 
 .fontawesome:hover {
@@ -309,6 +324,7 @@ p {
 
 .npm {
   color: #c53635;
+  transition: all 4s ease-in-out 0.5;
 }
 
 .npm:hover {
@@ -319,6 +335,7 @@ p {
 
 .figma {
   color: #0ac97f;
+  transition: all 4s ease-in-out 0.5;
 }
 
 .figma:hover {
