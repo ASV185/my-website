@@ -233,18 +233,22 @@ ul {
 
 .communication {
   background: var(--primary-color);
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
-li i {
-  color: var(--branding-color);
-  font-size: 90px;
-}
-
-li i:hover {
+.communication li i {
+  background-color: var(--branding-color);
   color: var(--third-color);
+  font-size: 20px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  margin: 0 20px;
+}
+
+.communication li i:hover {
+  color: var(--branding-color);
   cursor: pointer;
-  background: var(--primary-color);
+  background: var(--third-color);
 }
 
 i {
