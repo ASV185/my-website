@@ -132,12 +132,16 @@ p {
 }
 
 .skill i {
-  display: block;
-  margin: 0;
   color: var(--accent-color);
   font-size: 70px;
   text-align: center;
   margin: 20px auto;
+}
+
+.skill i:hover {
+  display: block;
+  padding-top: 20px;
+  cursor: pointer;
 }
 
 .tool i {
@@ -147,6 +151,12 @@ p {
   font-size: 70px;
   text-align: center;
   margin: 20px auto;
+}
+
+.tool i:hover {
+  display: block;
+  padding-top: 20px;
+  cursor: pointer;
 }
 
 .name-skill {
@@ -171,60 +181,150 @@ p {
   color: #dd4b25;
 }
 
+.HTML:hover {
+  display: block;
+  padding: 20px 10px;
+  cursor: pointer;
+}
+
 .css i {
   color: #264de4;
+}
+
+.css i:hover {
+  display: block;
+  padding-top: 20px;
+  cursor: pointer;
 }
 
 .javascript {
   color: #f0db4f;
 }
 
+.javascript:hover {
+  display: block;
+  padding-top: 20px;
+  cursor: pointer;
+}
+
 .react {
   color: #61dbfb;
+}
+
+.react:hover {
+  display: block;
+  padding-top: 20px;
+  cursor: pointer;
 }
 
 .seo {
   color: #4181ee;
 }
 
+.seo:hover {
+  display: block;
+  padding: 20px 10px;
+  cursor: pointer;
+}
+
 .hosting {
   color: #4181ee;
+}
+
+.hosting:hover {
+  display: block;
+  padding-top: 20px;
+  cursor: pointer;
 }
 
 .flexbox {
   color: #005cf2;
 }
 
+.flexbox:hover {
+  display: block;
+  padding: 20px 10px;
+  cursor: pointer;
+}
+
 .responsive {
   color: #5b5b5b;
+}
+
+.responsive:hover {
+  display: block;
+  padding-top: 20px;
+  cursor: pointer;
 }
 
 .bootstrap {
   color: #8712f7;
 }
 
+.bootstrap:hover {
+  display: block;
+  padding-top: 20px;
+  cursor: pointer;
+}
+
 .invision {
   color: #f73161;
+}
+
+.invision:hover {
+  display: block;
+  padding: 20px 10px;
+  cursor: pointer;
 }
 
 .api {
   color: #49667d;
 }
 
+.api:hover {
+  display: block;
+  padding-top: 20px;
+  cursor: pointer;
+}
+
 .mozilla {
   color: #5b5b5b;
+}
+
+.mozilla:hover {
+  display: block;
+  padding: 20px 10px;
+  cursor: pointer;
 }
 
 .fontawesome {
   color: #2186df;
 }
 
+.fontawesome:hover {
+  display: block;
+  padding-top: 20px;
+  cursor: pointer;
+}
+
 .npm {
   color: #c53635;
 }
 
+.npm:hover {
+  display: block;
+  padding-top: 20px;
+  cursor: pointer;
+}
+
 .figma {
   color: #0ac97f;
+}
+
+.figma:hover {
+  display: block;
+  padding-top: 20px;
+  cursor: pointer;
 }
 
 ul {
