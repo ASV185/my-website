@@ -537,6 +537,20 @@ p .content {
   font-family: "Nanum Myeongjo", serif;
 }
 
+.arrow-up i {
+  font-size: 35px;
+  color: var(--branding-color);
+  text-shadow: var(--box-shadow);
+}
+
+.communication span {
+  font-size: 20px;
+  color: var(--branding-color);
+  text-shadow: var(--box-shadow);
+  font-weight: bold;
+  position: relative;
+  left: 250px;
+}
 @media (max-width: 800px) {
   h1 {
     font-size: 48px;
