@@ -136,29 +136,23 @@ p {
   font-size: 70px;
   text-align: center;
   margin: 20px auto;
-  transition: all 4s ease-in-out 0.5;
 }
 
 .skill i:hover {
-  display: block;
-  padding-top: 20px;
   cursor: pointer;
+  font-size: 80px;
 }
 
 .tool i {
-  display: block;
-  margin: 0;
   color: var(--accent-color);
   font-size: 70px;
   text-align: center;
   margin: 20px auto;
-  transition: all 4s ease-in-out 0.5;
 }
 
 .tool i:hover {
-  display: block;
-  padding-top: 20px;
   cursor: pointer;
+  font-size: 80px;
 }
 
 .name-skill {
@@ -166,6 +160,7 @@ p {
   font-size: 20px;
   font-weight: bold;
   margin: 20px auto;
+  text-align: center;
 }
 
 .name-tool {
@@ -179,169 +174,154 @@ p {
   background: var(--primary-color);
 }
 
-.HTML {
+.HTML i {
   color: #dd4b25;
-  transition: all 4s ease-in-out 0.5;
+  font-size: 70px;
 }
 
-.HTML:hover {
-  display: block;
-  padding-top: 20px;
+.HTML i:hover {
   cursor: pointer;
+  font-size: 80px;
 }
 
 .css i {
   color: #264de4;
-  transition: all 4s ease-in-out 0.5;
+  font-size: 70px;
 }
 
 .css i:hover {
-  display: block;
-  padding-top: 20px;
   cursor: pointer;
+  font-size: 80px;
 }
 
-.javascript {
+.javascript i {
   color: #f0db4f;
-  transition: all 4s ease-in-out 0.5;
+  font-size: 70px;
 }
 
-.javascript:hover {
-  display: block;
-  padding-top: 20px;
+.javascript i:hover {
   cursor: pointer;
+  font-size: 80px;
 }
 
-.react {
+.react i {
   color: #61dbfb;
-  transition: all 4s ease-in-out 0.5;
+  font-size: 70px;
 }
 
-.react:hover {
-  display: block;
-  padding-top: 20px;
+.react i:hover {
   cursor: pointer;
+  font-size: 80px;
 }
 
-.seo {
+.seo i {
   color: #4181ee;
-  transition: all 4s ease-in-out 0.5;
+  font-size: 70px;
 }
 
-.seo:hover {
-  display: block;
-  padding-top: 20px;
+.seo i:hover {
   cursor: pointer;
+  font-size: 80px;
 }
 
-.hosting {
+.hosting i {
   color: #4181ee;
-  transition: all 4s ease-in-out 0.5;
+  font-size: 70px;
 }
 
-.hosting:hover {
-  display: block;
-  padding-top: 20px;
+.hosting i:hover {
   cursor: pointer;
+  font-size: 80px;
 }
 
-.flexbox {
+.flexbox i {
   color: #005cf2;
-  transition: all 4s ease-in-out 0.5;
+  font-size: 70px;
 }
 
-.flexbox:hover {
-  display: block;
-  padding-top: 20px;
+.flexbox i:hover {
   cursor: pointer;
+  font-size: 80px;
 }
 
-.responsive {
+.responsive i {
   color: #5b5b5b;
-  transition: all 4s ease-in-out 0.5;
+  font-size: 70px;
 }
 
-.responsive:hover {
-  display: block;
-  padding-top: 20px;
+.responsive i:hover {
   cursor: pointer;
+  font-size: 80px;
 }
 
-.bootstrap {
+.bootstrap i {
   color: #8712f7;
-  transition: all 4s ease-in-out 0.5;
+  font-size: 70px;
 }
 
-.bootstrap:hover {
-  display: block;
-  padding-top: 20px;
+.bootstrap i:hover {
   cursor: pointer;
+  font-size: 80px;
 }
 
-.invision {
+.invision i {
   color: #f73161;
-  transition: all 4s ease-in-out 0.5;
+  font-size: 70px;
 }
 
-.invision:hover {
-  display: block;
-  padding-top: 20px;
+.invision i:hover {
   cursor: pointer;
+  font-size: 80px;
 }
 
-.api {
+.api i {
   color: #49667d;
-  transition: all 4s ease-in-out 0.5;
+  font-size: 70px;
 }
 
-.api:hover {
-  display: block;
-  padding-top: 20px;
+.api i:hover {
   cursor: pointer;
+  font-size: 80px;
 }
 
-.mozilla {
+.mozilla i {
   color: #5b5b5b;
-  transition: all 4s ease-in-out 0.5;
+  font-size: 70px;
 }
 
-.mozilla:hover {
-  display: block;
-  padding-top: 20px;
+.mozilla i:hover {
   cursor: pointer;
+  font-size: 80px;
 }
 
-.fontawesome {
+.fontawesome i {
   color: #2186df;
-  transition: all 4s ease-in-out 0.5;
+  font-size: 70px;
 }
 
-.fontawesome:hover {
-  display: block;
-  padding-top: 20px;
+.fontawesome i:hover {
   cursor: pointer;
+  font-size: 80px;
 }
 
-.npm {
+.npm i {
   color: #c53635;
-  transition: all 4s ease-in-out 0.5;
+  font-size: 70px;
 }
 
-.npm:hover {
-  display: block;
-  padding-top: 20px;
+.npm i:hover {
   cursor: pointer;
+  font-size: 80px;
 }
 
-.figma {
+.figma i {
   color: #0ac97f;
-  transition: all 4s ease-in-out 0.5;
+  font-size: 70px;
 }
 
-.figma:hover {
-  display: block;
-  padding-top: 20px;
+.figma i:hover {
   cursor: pointer;
+  font-size: 80px;
 }
 
 ul {
