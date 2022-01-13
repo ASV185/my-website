@@ -138,7 +138,7 @@ p {
   font-size: 70px;
   text-align: center;
   margin: 20px auto;
-  transition: transform 50ms;
+  transition: transform 1s;
 }
 
 .skill i:hover {
