@@ -523,11 +523,6 @@ p .content {
   left: 250px;
 }
 
-.mountain-icon {
-  width: 500px;
-  height: 500px;
-}
-
 @media (max-width: 800px) {
   h1 {
     font-size: 48px;
