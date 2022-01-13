@@ -138,11 +138,12 @@ p {
   font-size: 70px;
   text-align: center;
   margin: 20px auto;
+  transition: transform 50ms;
 }
 
 .skill i:hover {
   cursor: pointer;
-  font-size: 80px;
+  transform: scale(1.3);
 }
 
 .tool i {
@@ -150,11 +151,12 @@ p {
   font-size: 70px;
   text-align: center;
   margin: 20px auto;
+  transition: transform 1s;
 }
 
 .tool i:hover {
   cursor: pointer;
-  font-size: 80px;
+  transform: scale(1.3);
 }
 
 .name-skill {
@@ -179,151 +181,166 @@ p {
 .HTML i {
   color: #dd4b25;
   font-size: 70px;
+  transition: transform 1s;
 }
 
 .HTML i:hover {
   cursor: pointer;
-  font-size: 80px;
+  transform: scale(1.3);
 }
 
 .css i {
   color: #264de4;
   font-size: 70px;
+  transition: transform 1s;
 }
 
 .css i:hover {
   cursor: pointer;
-  font-size: 80px;
+  transform: scale(1.3);
 }
 
 .javascript i {
   color: #f0db4f;
   font-size: 70px;
+  transition: transform 1s;
 }
 
 .javascript i:hover {
   cursor: pointer;
-  font-size: 80px;
+  transform: scale(1.3);
 }
 
 .react i {
   color: #61dbfb;
   font-size: 70px;
+  transition: transform 1s;
 }
 
 .react i:hover {
   cursor: pointer;
-  font-size: 80px;
+  transform: scale(1.3);
 }
 
 .seo i {
   color: #4181ee;
   font-size: 70px;
+  transition: transform 1s;
 }
 
 .seo i:hover {
   cursor: pointer;
-  font-size: 80px;
+  transform: scale(1.3);
 }
 
 .hosting i {
   color: #4181ee;
   font-size: 70px;
+  transition: transform 1s;
 }
 
 .hosting i:hover {
   cursor: pointer;
-  font-size: 80px;
+  transform: scale(1.3);
 }
 
 .flexbox i {
   color: #005cf2;
   font-size: 70px;
+  transition: transform 1s;
 }
 
 .flexbox i:hover {
   cursor: pointer;
-  font-size: 80px;
+  transform: scale(1.3);
 }
 
 .responsive i {
   color: #5b5b5b;
   font-size: 70px;
+  transition: transform 1s;
 }
 
 .responsive i:hover {
   cursor: pointer;
-  font-size: 80px;
+  transform: scale(1.3);
 }
 
 .bootstrap i {
   color: #8712f7;
   font-size: 70px;
+  transition: transform 1s;
 }
 
 .bootstrap i:hover {
   cursor: pointer;
-  font-size: 80px;
+  transform: scale(1.3);
 }
 
 .invision i {
   color: #f73161;
   font-size: 70px;
+  transition: transform 1s;
 }
 
 .invision i:hover {
   cursor: pointer;
-  font-size: 80px;
+  transform: scale(1.3);
 }
 
 .api i {
   color: #49667d;
   font-size: 70px;
+  transition: transform 1s;
 }
 
 .api i:hover {
   cursor: pointer;
-  font-size: 80px;
+  transform: scale(1.3);
 }
 
 .mozilla i {
   color: #5b5b5b;
   font-size: 70px;
+  transition: transform 1s;
 }
 
 .mozilla i:hover {
   cursor: pointer;
-  font-size: 80px;
+  transform: scale(1.3);
 }
 
 .fontawesome i {
   color: #2186df;
   font-size: 70px;
+  transition: transform 1s;
 }
 
 .fontawesome i:hover {
   cursor: pointer;
-  font-size: 80px;
+  transform: scale(1.3);
 }
 
 .npm i {
   color: #c53635;
   font-size: 70px;
+  transition: transform 1s;
 }
 
 .npm i:hover {
   cursor: pointer;
-  font-size: 80px;
+  transform: scale(1.3);
 }
 
 .figma i {
   color: #0ac97f;
   font-size: 70px;
+  transition: transform 1s;
 }
 
 .figma i:hover {
   cursor: pointer;
-  font-size: 80px;
+  transform: scale(1.3);
 }
 
 ul {
@@ -523,6 +540,100 @@ p .content {
   left: 250px;
 }
 
+.container .box {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  background: #000;
+  margin: 10px;
+  padding: 0 0 0 0;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.container {
+  display: flex;
+  margin: 70px auto 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container .box .img-box {
+  position: relative;
+  overflow: hidden;
+  padding: 0 0 0 0;
+}
+
+.container .box .img-box img {
+  transition: transform 1s;
+  opacity: 0.6;
+  max-width: 250px;
+  height: 250px;
+}
+
+.container .box:hover .img-box img {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.container .box .text {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  background: rgba(241, 91, 206, 0.8);
+  transform: scaleY(0);
+  transition: transform 0.5s;
+}
+
+.container .box:hover .text {
+  transform: scaleY(1);
+}
+
+.container .box .text .content {
+  position: absolute;
+  top: 10%;
+  text-align: center;
+  padding: 15px;
+  color: #fff;
+}
+
+.container .box .details .content h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.container .box .details .content a {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+
+.web-link {
+  padding: 6px 8px;
+  margin: 10px;
+  border-radius: 3px;
+  text-decoration: none;
+  border: #000 solid 3px;
+  position: absolute;
+  left: 15px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.code-link {
+  padding: 6px 8px;
+  margin: 10px;
+  border-radius: 3px;
+  text-decoration: none;
+  border: #000 solid 3px;
+  position: absolute;
+  left: 70px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
 @media (max-width: 800px) {
   h1 {
     font-size: 48px;
@@ -569,10 +680,6 @@ p .content {
     font-size: 15px;
   }
 
-  .about-section img .self-image {
-    font-size: 500px;
-  }
-
   .name {
     font-size: 40px;
     text-align: center;
@@ -583,11 +690,6 @@ p .content {
     font-size: 25px;
     text-align: center;
     margin: none;
-  }
-
-  .content-container {
-    margin: none;
-    padding: 20px;
   }
 
   .content {
