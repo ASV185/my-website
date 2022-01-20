@@ -731,4 +731,17 @@ p .content {
     background: var(--secondary-color);
     margin: 30px;
   }
+
+  .communication span {
+    display: none;
+  }
+
+  .content {
+    display: none;
+  }
+
+  .content-container a {
+    padding: 10px;
+    margin: 7px;
+  }
 }
