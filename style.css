@@ -71,6 +71,12 @@ h3 i:hover {
   color: var(--third-color);
 }
 
+.content-container header h2 {
+  color: var(--secondary-color);
+  font-weight: bolder;
+  text-shadow: var(--box-shadow);
+}
+
 p {
   font-size: 20px;
   line-height: 1.5;
@@ -638,6 +644,12 @@ p .content {
   left: 70px;
   text-transform: capitalize;
   color: #fff;
+}
+
+@media (max-width: 300px) {
+  .content-container header h2 {
+    font-size: 25px;
+  }
 }
 
 @media (min-width: 700px) {
