@@ -124,6 +124,14 @@ p {
   font-size: 20px;
 }
 
+.projects-link:hover {
+  background: var(--third-color);
+  color: var(--primary-color);
+  font-weight: bolder;
+  letter-spacing: 5;
+  border: 5px solid var(--primary-color);
+}
+
 .social-link {
   color: var(--accent-color);
   font-size: 17px;
@@ -518,6 +526,14 @@ p .content {
   font-size: 20px;
 }
 
+.contact-link:hover {
+  background: var(--third-color);
+  color: var(--primary-color);
+  font-weight: bolder;
+  letter-spacing: 5;
+  border: 5px solid var(--primary-color);
+}
+
 .card-link {
   border-radius: 4px;
   padding: 15px;
@@ -775,5 +791,6 @@ p .content {
     color: var(--primary-color);
     font-weight: bolder;
     letter-spacing: 5;
+    border: 5px solid var(--primary-color);
   }
 }
