@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --branding-color: hsl(213, 10%, 21%);
   --primary-color: #717d8c;
@@ -392,7 +397,7 @@ i {
 }
 
 .navbar ul li {
-  width: 120px;
+  width: 100%;
   font-size: 25px;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -525,21 +530,6 @@ p .content {
   font-size: 15px;
 }
 
-.arrow-up i {
-  font-size: 35px;
-  color: var(--branding-color);
-  text-shadow: var(--box-shadow);
-}
-
-.communication span {
-  font-size: 20px;
-  color: var(--branding-color);
-  text-shadow: var(--box-shadow);
-  font-weight: bold;
-  position: relative;
-  left: 250px;
-}
-
 .container .box {
   position: relative;
   width: 270px;
@@ -553,7 +543,7 @@ p .content {
 
 .container {
   display: flex;
-  margin: 70px auto 0;
+  margin: 70px auto;
   flex-direction: row;
   flex-wrap: wrap;
 }
@@ -634,6 +624,24 @@ p .content {
   color: #fff;
 }
 
+@media (min-width: 700px) {
+  .name-skill {
+    border: none;
+  }
+
+  .name-tool {
+    border: none;
+  }
+}
+
+@media (min-width: 800px) {
+  .projects-link {
+    font-size: 13px;
+    padding: 14px 12px;
+    margin: 10px;
+  }
+}
+
 @media (max-width: 800px) {
   h1 {
     font-size: 48px;
@@ -646,6 +654,10 @@ p .content {
   }
   p {
     text-align: center;
+  }
+
+  .navbar span .logo {
+    display: none;
   }
 
   .tools i {
@@ -732,16 +744,36 @@ p .content {
     margin: 30px;
   }
 
-  .communication span {
-    display: none;
-  }
-
-  .content {
-    display: none;
-  }
-
   .content-container a {
     padding: 10px;
     margin: 7px;
+  }
+
+  .content-container .content {
+    display: none;
+  }
+
+  .navbar ul li {
+    font-size: 12px;
+    justify-content: space-between;
+    margin: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .projects-link {
+    display: block;
+    margin: 0;
+    text-align: center;
+    padding: 20px 50px;
+    font-size: 19px;
+    margin: 30px;
+  }
+
+  .projects-link:hover {
+    background: var(--third-color);
+    color: var(--primary-color);
+    font-weight: bolder;
+    letter-spacing: 5;
   }
 }
