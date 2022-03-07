@@ -22,10 +22,12 @@ h3 {
   margin: 0;
 }
 
-.hero {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
+.hero span {
   font-size: 50px;
+}
+
+.hero small {
+  font-size: 30px;
 }
 
 h1 {
@@ -33,15 +35,18 @@ h1 {
   color: var(--accent-color);
   box-shadow: var(--accent-color);
   opacity: 0.7;
-  font-family: "Fredericka the Great", cursive;
+  font-family: "DM Serif Display", serif;
+}
+
+.hero {
+  background: var(--third-color);
 }
 
 h2 {
   font-size: 40px;
   color: var(--accent-color);
   opacity: 0.7;
-  font-family: "Nanum Myeongjo", serif;
-  font-weight: bolder;
+  font-family: "DM Serif Display", serif;
   text-shadow: var(--box-shadow);
 }
 
@@ -49,8 +54,6 @@ h3 {
   font-size: 27px;
   color: var(--accent-color);
   opacity: 0.7;
-  font-family: "Nanum Myeongjo", serif;
-  font-weight: bolder;
   text-shadow: var(--box-shadow);
 }
 
@@ -71,18 +74,16 @@ h3 i:hover {
   color: var(--third-color);
 }
 
-.content-container header h2 {
+.content-container h2 {
   color: var(--secondary-color);
-  font-weight: bolder;
   text-shadow: var(--box-shadow);
 }
 
 p {
   font-size: 20px;
   line-height: 1.5;
-  font-weight: bold;
   padding: 15px;
-  font-family: "Zen Old Mincho", serif;
+  font-family: "DM Serif Display", serif;
 }
 
 .contact-title {
@@ -97,21 +98,8 @@ p {
   color: var(--third-color);
 }
 
-.description {
-  font-family: "Zen Old Mincho", serif;
-  font-weight: 600px;
-  color: var(--accent-color);
-}
-
-.name {
-  font-family: "Zen Old Mincho", serif;
-  font-weight: 700px;
-  color: var(--accent-color);
-  font-size: 60px;
-}
-
 .arrow {
-  background: var(--secondary-color);
+  background: var(--third-color);
 }
 
 .arrow i {
@@ -123,33 +111,18 @@ p {
   padding: 20px;
   text-decoration: none;
   text-transform: capitalize;
-  background: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
   box-shadow: var(--box-shadow);
-  color: white;
+  color: var(--secondary-color);
   margin: 15px;
   font-size: 20px;
+  font-family: "DM Serif Display", serif;
 }
 
 .projects-link:hover {
-  background: var(--third-color);
-  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  color: var(--branding-color);
   font-weight: bolder;
-  letter-spacing: 5;
-  border: 5px solid var(--primary-color);
-}
-
-.social-link {
-  color: var(--accent-color);
-  font-size: 17px;
-  text-decoration: none;
-  text-align: center;
-  line-height: 1;
-  font-weight: bold;
-  font-family: "Nanum Myeongjo", serif;
-}
-
-.social-link:hover {
-  text-decoration: underline;
 }
 
 .skill i {
@@ -184,6 +157,7 @@ p {
   font-weight: bold;
   margin: 20px auto;
   text-align: center;
+  font-family: "DM Serif Display", serif;
 }
 
 .name-tool {
@@ -191,6 +165,7 @@ p {
   font-size: 17px;
   text-align: center;
   font-weight: bold;
+  font-family: "DM Serif Display", serif;
 }
 
 .certificates {
@@ -367,23 +342,20 @@ ul {
 }
 
 .communication {
-  background: var(--primary-color);
+  background-color: var(--third-color);
   padding: 50px 0;
 }
 
-.communication li i {
-  background-color: var(--branding-color);
-  color: var(--third-color);
+.communication li a img {
   font-size: 20px;
   padding: 10px 14px;
-  border-radius: 50%;
   margin: 0 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+  border-radius: 15px;
 }
 
-.communication li i:hover {
-  color: var(--branding-color);
+.communication li a img:hover {
   cursor: pointer;
-  background: var(--third-color);
 }
 
 i {
@@ -400,8 +372,7 @@ i {
   text-align: center;
   margin: 0;
   padding: 0;
-  background-color: #85a3c5;
-  box-shadow: var(--box-shadow);
+  background-color: var(--third-color);
 }
 
 .navbar ul {
@@ -419,8 +390,8 @@ i {
 
 .navbar ul li a {
   text-decoration: none;
-  color: var(--accent-color);
-  font-family: "Zen Old Mincho", serif;
+  color: var(--branding-color);
+  font-family: "DM Serif Display", serif;
 }
 
 .active,
@@ -438,12 +409,12 @@ i {
 }
 
 .navbar span {
-  font-family: "Rochester", cursive;
+  font-family: "DM Serif Display", serif;
   font-size: 30px;
 }
 
 .navbar span .logo {
-  color: var(--accent-color);
+  color: var(--branding-color);
   text-decoration: none;
   padding: 80px;
 }
@@ -483,33 +454,33 @@ footer i {
   padding: 50px;
 }
 
-.instagram {
-  color: var(--branding-color);
-}
-
-.github {
-  color: var(--branding-color);
-}
-
-.linkedin {
-  color: var(--branding-color);
-}
-
 p .content {
   font-size: 20px;
   margin: none;
   color: var(--third-color);
-  font-family: "Nanum Myeongjo", serif;
 }
 
-.information {
+.social-media-information {
   margin: none;
   padding: none;
-  font-size: 15px;
-  border: 1px solid var(--accent-color);
-  background: var(--accent-color);
-  color: var(--third-color);
+  font-size: 30px;
+  color: radial-gradient(#111110, #f5eeee);
   padding: 10px;
+  font-family: "DM Serif Display", serif;
+  font-weight: bold;
+  text-align: left;
+}
+
+.social-link {
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  color: rgb(82, 74, 74) !important;
+  font-family: "DM Serif Display", serif;
 }
 
 .secondary-title {
@@ -520,130 +491,9 @@ p .content {
   padding: 20px;
 }
 
-.contact-link {
-  border-radius: 4px;
-  padding: 20px;
-  text-decoration: none;
-  text-transform: capitalize;
-  background: var(--secondary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-  margin: 15px;
-  font-size: 20px;
-}
-
-.contact-link:hover {
-  background: var(--third-color);
-  color: var(--primary-color);
-  font-weight: bolder;
-  letter-spacing: 5;
-  border: 5px solid var(--primary-color);
-}
-
-.card-link {
-  border-radius: 4px;
-  padding: 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  background: var(--secondary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-  margin: 15px;
-  font-size: 15px;
-}
-
-.container .box {
-  position: relative;
-  width: 270px;
-  height: 230px;
-  background: #000;
-  margin: 10px;
-  padding: 0 0 0 0;
-  box-sizing: border-box;
-  display: inline-block;
-}
-
 .container {
-  display: flex;
-  margin: 70px auto;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.container .box .img-box {
-  position: relative;
-  overflow: hidden;
-  padding: 0 0 0 0;
-}
-
-.container .box .img-box img {
-  transition: transform 1s;
-  opacity: 0.6;
-  max-width: 270px;
-  height: 230px;
-}
-
-.container .box:hover .img-box img {
-  transform: scale(1.2);
-  opacity: 1;
-}
-
-.container .box .text {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  bottom: 10px;
-  background: rgba(241, 91, 206, 0.8);
-  transform: scaleY(0);
-  transition: transform 0.5s;
-}
-
-.container .box:hover .text {
-  transform: scaleY(1);
-}
-
-.container .box .text .content {
-  position: absolute;
-  top: 10%;
-  text-align: center;
-  padding: 15px;
-  color: #fff;
-}
-
-.container .box .details .content h3 {
-  margin: 0;
-  padding: 0;
-  font-size: 20px;
-}
-
-.container .box .details .content a {
-  margin: 0;
-  padding: 0;
-  font-size: 10px;
-}
-
-.web-link {
-  padding: 6px 8px;
-  margin: 10px;
-  border-radius: 3px;
-  text-decoration: none;
-  border: #000 solid 3px;
-  position: absolute;
-  left: 15px;
-  text-transform: capitalize;
-  color: #fff;
-}
-
-.code-link {
-  padding: 6px 8px;
-  margin: 10px;
-  border-radius: 3px;
-  text-decoration: none;
-  border: #000 solid 3px;
-  position: absolute;
-  left: 70px;
-  text-transform: capitalize;
-  color: #fff;
+  background-color: rgb(70, 70, 75);
+  border-radius: 5px;
 }
 
 @media (max-width: 300px) {
@@ -662,14 +512,6 @@ p .content {
   }
 }
 
-@media (min-width: 800px) {
-  .projects-link {
-    font-size: 13px;
-    padding: 14px 12px;
-    margin: 10px;
-  }
-}
-
 @media (max-width: 800px) {
   h1 {
     font-size: 48px;
@@ -684,10 +526,6 @@ p .content {
     text-align: center;
   }
 
-  .navbar span .logo {
-    display: none;
-  }
-
   .tools i {
     display: none;
   }
@@ -700,7 +538,6 @@ p .content {
     display: inline-block;
     color: var(--branding-color);
     text-shadow: var(--box-shadow);
-    font-family: "Nanum Myeongjo", serif;
     border: 3px solid var(--branding-color);
     padding: 10px;
     margin: 10px;
@@ -712,7 +549,6 @@ p .content {
     display: inline-block;
     color: var(--branding-color);
     text-shadow: var(--box-shadow);
-    font-family: "Nanum Myeongjo", serif;
     border: 3px solid var(--branding-color);
     padding: 10px;
     margin: 10px;
@@ -746,30 +582,8 @@ p .content {
     display: none;
   }
 
-  .contact-link {
-    display: block;
-    margin: 0;
-    text-align: center;
-    padding: 20px 20px;
-    font-size: 17px;
-    text-shadow: var(--box-shadow);
-    background: var(--secondary-color);
-    margin: 20px;
-  }
-
   .website-title {
     text-align: center;
-  }
-
-  .projects-link {
-    display: block;
-    margin: 0;
-    text-align: center;
-    padding: 20px 50px;
-    font-size: 17px;
-    text-shadow: var(--box-shadow);
-    background: var(--secondary-color);
-    margin: 30px;
   }
 
   .content-container a {
@@ -796,13 +610,5 @@ p .content {
     padding: 20px 50px;
     font-size: 19px;
     margin: 30px;
-  }
-
-  .projects-link:hover {
-    background: var(--third-color);
-    color: var(--primary-color);
-    font-weight: bolder;
-    letter-spacing: 5;
-    border: 5px solid var(--primary-color);
   }
 }
