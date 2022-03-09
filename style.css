@@ -443,6 +443,11 @@ p .content {
   color: var(--third-color);
 }
 
+.content-container img {
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+}
+
 .social-media-information {
   margin: none;
   padding: none;
