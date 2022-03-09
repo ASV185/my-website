@@ -6,7 +6,7 @@
 :root {
   --branding-color: hsl(213, 10%, 21%);
   --primary-color: #717d8c;
-  --secondary-color: #85a3c5;
+  --secondary-color: #7197c2;
   --third-color: #cdcdcd;
   --accent-color: black;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
@@ -23,7 +23,7 @@ h3 {
 }
 
 .hero span {
-  font-size: 50px;
+  font-size: 55px;
 }
 
 .hero small {
@@ -43,7 +43,7 @@ h1 {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 50px;
   color: var(--accent-color);
   opacity: 0.7;
   font-family: "DM Serif Display", serif;
@@ -55,23 +55,6 @@ h3 {
   color: var(--accent-color);
   opacity: 0.7;
   text-shadow: var(--box-shadow);
-}
-
-h3 a {
-  padding: 0;
-}
-
-h3 i {
-  font-size: 40px;
-  font-weight: 100px;
-  text-shadow: var(--box-shadow);
-  padding: none;
-  color: var(--branding-color);
-}
-
-h3 i:hover {
-  cursor: pointer;
-  color: var(--third-color);
 }
 
 .content-container h2 {
@@ -483,6 +466,10 @@ p .content {
   font-family: "DM Serif Display", serif;
 }
 
+.social-link:hover {
+  text-decoration: underline;
+}
+
 .secondary-title {
   text-shadow: var(--box-shadow);
   text-align: bolder;
@@ -491,8 +478,54 @@ p .content {
   padding: 20px;
 }
 
-.container {
-  background-color: rgb(70, 70, 75);
+.container h3 {
+  color: var(--accent-color);
+  font-weight: 650;
+}
+
+.web-link {
+  position: relative;
+  text-decoration: none;
+  border: 3px solid var(--accent-color);
+  color: var(--secondary-color);
+  font-family: "DM Serif Display", serif;
+  font-size: 15px;
+  border-radius: 5px;
+  margin: 4px;
+  font-weight: 650;
+}
+
+.web-link:hover {
+  background-color: var(--accent-color);
+  color: var(--third-color);
+  cursor: pointer;
+}
+
+.code-link {
+  position: relative;
+  text-decoration: none;
+  border: 3px solid var(--accent-color);
+  color: var(--secondary-color);
+  font-family: "DM Serif Display", serif;
+  font-size: 15px;
+  border-radius: 5px;
+  margin: 4px;
+  font-weight: 650;
+}
+
+.code-link:hover {
+  background-color: var(--accent-color);
+  color: var(--third-color);
+  cursor: pointer;
+}
+
+.container p {
+  color: var(--accent-color);
+}
+
+.container .content-box {
+  font-family: "DM Serif Display", serif;
+  font-weight: 650;
   border-radius: 5px;
 }
 
