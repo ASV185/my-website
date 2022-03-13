@@ -339,6 +339,7 @@ ul {
 
 .communication li a img:hover {
   cursor: pointer;
+  transform: rotate(-15deg);
 }
 
 i {
@@ -360,8 +361,8 @@ i {
 
 .navbar ul {
   display: flex;
-  list-style: none;
   text-shadow: var(--box-shadow);
+  padding-right: 180px;
 }
 
 .navbar ul li {
@@ -399,7 +400,7 @@ i {
 .navbar span .logo {
   color: var(--branding-color);
   text-decoration: none;
-  padding: 80px;
+  padding: 33px;
 }
 
 .double-arrow {
@@ -415,12 +416,12 @@ i {
 
 footer {
   font-size: 15px;
-  font-family: "Nanum Myeongjo", serif;
   background-color: var(--branding-color);
   color: var(--secondary-color);
   text-align: center;
   padding: 20px;
   text-shadow: var(--box-shadow);
+  font-family: "DM Serif Display", serif;
 }
 
 footer i {
@@ -440,6 +441,7 @@ footer i {
 p .content {
   font-size: 20px;
   margin: none;
+  padding: none;
   color: var(--third-color);
 }
 
@@ -486,51 +488,43 @@ p .content {
 .container h3 {
   color: var(--accent-color);
   font-weight: 650;
+  font-size: 40px;
 }
 
 .web-link {
   position: relative;
   text-decoration: none;
-  border: 3px solid var(--accent-color);
-  color: var(--secondary-color);
+  background-color: var(--secondary-color);
+  color: var(--accent-color);
   font-family: "DM Serif Display", serif;
-  font-size: 15px;
+  font-size: 17px;
   border-radius: 5px;
   margin: 4px;
   font-weight: 650;
+  box-shadow: var(--box-shadow);
 }
 
 .web-link:hover {
-  background-color: var(--accent-color);
-  color: var(--third-color);
   cursor: pointer;
-}
-
-.code-link {
-  position: relative;
-  text-decoration: none;
-  border: 3px solid var(--accent-color);
-  color: var(--secondary-color);
-  font-family: "DM Serif Display", serif;
-  font-size: 15px;
-  border-radius: 5px;
-  margin: 4px;
-  font-weight: 650;
-}
-
-.code-link:hover {
-  background-color: var(--accent-color);
-  color: var(--third-color);
-  cursor: pointer;
+  color: var(--accent-color);
 }
 
 .container p {
   color: var(--accent-color);
 }
 
+main {
+  background-color: var(--third-color);
+}
+
 .container .content-box {
   font-family: "DM Serif Display", serif;
   font-weight: 650;
+  border-radius: 5px;
+  background-color: rgb(185, 188, 190);
+}
+
+.container .row img {
   border-radius: 5px;
 }
 
