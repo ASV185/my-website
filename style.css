@@ -521,7 +521,7 @@ main {
   font-family: "DM Serif Display", serif;
   font-weight: 650;
   border-radius: 5px;
-  background-color: rgb(185, 188, 190);
+  background-color: #bebebe;
 }
 
 .container .row img {
