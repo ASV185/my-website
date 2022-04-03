@@ -634,6 +634,20 @@ main {
   }
 }
 
+@media (max-width: 1000px) {
+  .navbar span {
+    display: none;
+  }
+
+  .container img {
+    display: none;
+  }
+
+  .container .content-box {
+    text-align: center;
+  }
+}
+
 @media (min-width: 1200px) {
   .projects-link {
     display: block;
