@@ -555,8 +555,14 @@ h2 {
     line-height: 1.5;
   }
 
+  h2 {
+    text-align: center;
+    font-size: 2.2rem;
+  }
+
   h5 {
      font-size:1.2rem;
+     text-align: center;
   }
 
   p {
@@ -593,24 +599,19 @@ h2 {
     font-size: 0.75rem;
   }
 
-  .content-container .content {
-    display:none;
-  }
-
-  .content-container .hobbies{
-    display:none;
-  }
-
   .navbar ul li {
     font-size: 0.6rem;
     justify-content: space-between;
     margin: 0;
   }
 
+  .hobbies {
+    display:none;
+  }
+
   .content-box {
     text-align: center;
   }
-
 
   .name-skill {
     display:none;
