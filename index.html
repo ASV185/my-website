@@ -26,7 +26,7 @@
     </script>  
 </head>
 <body>  
-    <div class="navbar d-flex justify-content-between" id="navbar">
+    <nav class="navbar d-flex justify-content-between" id="navbar">
         <span>
             <a class="logo" href="/" title="Amanda's Logo">
            Amanda Ventura
@@ -45,57 +45,69 @@
                 <a class="nav-link" href="/contact.html" title="Contact Amanda Ventura">Contact.</a>
             </li>
         </ul>
-    </div>
-    <div class="hero" id="hero">
-        <h1 class="text-left p-3"><span class="p-3">I am</span>
-            <br>
-             Front-end Developer. 
-             <br>
-            <small class="p-5">I Build Websites. Let's work together!</small>
-        </h1>
-    </div>
-    <div class="row">
-        <div class="col">
-            <img src="/images/office.svg" class="img-fluid rounded p-3" alt="learning icon" />
+    <nav>
+    <header>
+        <div class="hero" id="hero">
+            <h1 class="text-left p-3"><span class="p-3">I am</span>
+                <br>
+                 Front-end Developer. 
+                <br>
+                <small>I Build Websites. Let's work together!</small>
+            </h1>
         </div>
-        <div class="col">
-            <img src="/images/realtime.svg" width="500" class="img-fluid rounded p-3" alt="responsive icon" />
-        </div>  
-    </div>
-    <div class="arrow text-center p-4" title="arrow">
-             <a href="index.html#about-me">
+        <div class="row">
+            <div class="col">
+                <img src="/images/office.svg" class="img-fluid rounded p-3" alt="learning icon" />
+            </div>
+            <div class="col">
+                <img src="/images/realtime.svg" width="500" class="img-fluid rounded p-3" alt="responsive icon" />
+            </div>  
+        </div>
+        <div class="arrow text-center p-4" title="arrow">
+            <a href="index.html#about-me">
                 <i class="fas fa-angle-down"></i>
-             </a>       
-    </div>
-    <div class="content-container" id="about-me">
+            </a>       
+        </div>
+    </header>
+    <main>
+        <div class="content-container" id="about-me">
         <div class="row">
             <div class="col-6">
                 <img src="/images/self-image.jpg" class="img-fluid" alt="self-image" class="self-image" />
             </div>
-            <div class="col-6 mt-5 mb-2">
-                <header class="p-3">
-                    <h2>
-                     Amanda Ventura
-                    </h2>
-                    <h5 class="mt-3 mb-3">
-                        Front-end Developer
-                    </h5>
-                </header>
-                <p class="content text-left mb-3">
-                    Thank you for stopping by...
-                    I learned to code by a program called SheCodes. I've been coding for more than
-                    a year after making a transition from immigration to front end development. I love to learn
-                    about other cultures, languages, and different types of food. Other activities I like to do
-                    is watch tv series and spend time with family. I really appreciate for you to stop by and to see
-                    my website. If you have questions or want to contact me you can send me a message through
-                    social media at the bottom or see my contact page. Also, check out my projects
-                    to see what I've been up to this past year!
-                </p>
-                <a href="/index.html#projects" class="projects-link" title="See Amanda's Projects">See my projects</a>
-                <a href="/index.html#front-end-development-skills" class="projects-link" title="Skills and Tools">Skills &
-                    Tools
-                </a>
-                <a href="/contact.html" class="projects-link" title="Contact Amanda Ventura">Contact me</a>
+            <div class="col-6 mb-2">
+                <div class="row">
+                    <div class="col-12">
+                        <header class="p-1">
+                            <h2>
+                                Amanda Ventura
+                            </h2>
+                            <h5 class="mt-3">
+                                Front-end Developer
+                            </h5>
+                        </header>
+                    </div>
+                    <div class="row">
+                        <p class="content text-left mb-5">
+                            Hi, my name is Amanda Ventura. I've been coding for more than a year after making a transition
+                            from immigration to front end development. I love to learn about other cultures, languages, and
+                            different types of food. Other activities I like to do is watch tv series and spend time with
+                            family. I really appreciate for you to stop by and to see my website. If you have questions or
+                            want to contact me you can send me a message through social media at the bottom or see my contact
+                            page. Also, check out my projects to see what I've been up to this past year!
+                        </p>
+                    </div>
+                   <div class="row hobbies">
+                       <div class="col-12">
+                            <div class="justify-content-evenly">
+                                <img src="/images/language-book.png" class="img-fluid p-4" alt="Language book" class="language-book" />
+                                <img src="/images/food-pic.png" class="img-fluid p-4" alt="Food pic" class="food-pic" />
+                                <img src="/images/home-pic.png" class="img-fluid p-4" alt="Home pic" class="home-pic" />
+                                <img src="/images/watching-video-pic.png" class="img-fluid p-4" alt="Watching Video pic" class="watching-video-pic" />
+                            </div>
+                       </div>   
+                   </div>  
+                </div>
             </div>
         </div>
     </div>
@@ -104,27 +116,29 @@
             <h3 class="text-center p-5" id="certificates" title="certificates">Certificates</h3>
         </div>
         <div class="col-md-6 mb-5">
-            <img src="/images/basic-certificate.jpg" class="img-fluid rounded p-2" alt="Basic coding-certificate"/>
+            <img src="/images/basic-certificate.jpg" class="img-fluid rounded p-2" alt="Basic coding-certificate" />
         </div>
         <div class="col-md-6 mb-5">
-            <img src="/images/plus-certificate.jpg" class="img-fluid rounded p-2"  alt="Front end development coding-certificate"/>
+            <img src="/images/plus-certificate.jpg" class="img-fluid rounded p-2"
+                alt="Front end development coding-certificate" />
         </div>
         <div class="certificates row d-flex">
-        <div class="col-md-6 mb-5">
-            <img src="/images/react-certificate.jpg" class="img-fluid rounded p-2" alt="React coding-certificate" />
+            <div class="col-md-6 mb-5">
+                <img src="/images/react-certificate.jpg" class="img-fluid rounded p-2" alt="React coding-certificate" />
+            </div>
+            <div class="col-md-6 mb-5">
+                <img src="/images/responsive-certificate.jpg" class="img-fluid rounded p-2"
+                    alt="Responsive coding-certificate" />
+            </div>
         </div>
-        <div class="col-md-6 mb-5">
-            <img src="/images/responsive-certificate.jpg" class="img-fluid rounded p-2" alt="Responsive coding-certificate" />
-        </div>
-        </div> 
     </div>
     <div class="row d-flex">
         <div class="col">
             <h3 class="text-left border border-3 p-3" id="front-end-development-skills">Skills</h3>
-              <div class="skills row d-flex justify-content-evenly">
+            <div class="skills row d-flex justify-content-evenly">
                 <div class="col-sm-2">
                     <span class="css"><i class="fab fa-css3-alt"></i></span>
-                    <br/>
+                    <br />
                     <small class="name-skill">CSS</small>
                 </div>
                 <div class="col-sm-2">
@@ -135,80 +149,80 @@
                     <span class="javascript"><i class="fab fa-js-square"></i></span>
                     <small class="name-skill">JavaScript</small>
                 </div>
-              </div>
-              <div class="skills row d-flex justify-content-evenly">
-                  <div class="col-sm-2">
-                   <span class="react"><i class="fab fa-react"></i></span> 
-                   <small class="name-skill">React</small>
-                  </div>
-                  <div class="col-sm-2">
-                   <span class="seo"><i class="fab fa-google"></i>
-                   <small class="name-skill">SEO</small> 
+            </div>
+            <div class="skills row d-flex justify-content-evenly">
+                <div class="col-sm-2">
+                    <span class="react"><i class="fab fa-react"></i></span>
+                    <small class="name-skill">React</small>
+                </div>
+                <div class="col-sm-2">
+                    <span class="seo"><i class="fab fa-google"></i>
+                        <small class="name-skill">SEO</small>
                     </span>
-                  </div>
-                  <div class="col-sm-2">
+                </div>
+                <div class="col-sm-2">
                     <span class="responsive"><i class="fas fa-desktop"></i></span>
                     <small class="name-skill">Responsive</small>
-                  </div>
-              </div>  
-              <div class="skills row d-flex justify-content-evenly">
-                  <div class="col-sm-2">
-                      <span class="hosting"><i class="fab fa-connectdevelop"></i></span>
-                      <small class="name-skill">Hosting</small>
-                  </div>
-                  <div class="col-sm-2">
+                </div>
+            </div>
+            <div class="skills row d-flex justify-content-evenly">
+                <div class="col-sm-2">
+                    <span class="hosting"><i class="fab fa-connectdevelop"></i></span>
+                    <small class="name-skill">Hosting</small>
+                </div>
+                <div class="col-sm-2">
                     <span class="flexbox"><i class="fas fa-border-all"></i></span>
                     <small class="name-skill">Flexbox</small>
-                  </div>
-                  <div class="col-sm-2">
+                </div>
+                <div class="col-sm-2">
                     <span class="skill"><i class="fas fa-code"></i></span>
                     <small class="name-skill">Code</small>
-                  </div>
-              </div>
+                </div>
+            </div>
         </div>
         <div class="col">
-            <h3 class="text-left border border-3 p-3" id="Frontend development tools">Tools</h3>
-            <div class="tools row d-flex justify-content-evenly">
-            <div class="col-sm-2">
-                <span class="bootstrap"><i class="fab fa-bootstrap"></i></span>
-                <small class="name-tool">Bootstrap</small>
-            </div>
-            <div class="col-sm-2">
-                <span class="invision"><i class="fab fa-invision"></i></span>
-                <small class="name-tool">InVision</small>
-            </div>
-            <div class="col-sm-2">
-                <span class="npm"><i class="fab fa-npm"></i></span>
-                <small class="name-tool">NPM</small>
-            </div>
-            </div>
+            <h3 class="text-left border border-3 p-3" id="front-end-development-tools">Tools</h3>
             <div class="tools row d-flex justify-content-evenly">
                 <div class="col-sm-2">
-                  <span class="figma"><i class="fab fa-figma"></i></span> 
-                  <small class="name-tool">Figma</small>
+                    <span class="bootstrap"><i class="fab fa-bootstrap"></i></span>
+                    <small class="name-tool">Bootstrap</small>
                 </div>
                 <div class="col-sm-2">
-                  <span class="tool"><i class="fab fa-github-alt"></i></span>
-                  <small class="name-tool">Github</small>
+                    <span class="invision"><i class="fab fa-invision"></i></span>
+                    <small class="name-tool">InVision</small>
                 </div>
                 <div class="col-sm-2">
-                   <span class="api"><i class="far fa-window-maximize"></i>
-                   <small class="name-tool"> API</small>
+                    <span class="npm"><i class="fab fa-npm"></i></span>
+                    <small class="name-tool">NPM</small>
+                </div>
+            </div>
+            <div class="tools row d-flex justify-content-evenly">
+                <div class="col-sm-2">
+                    <span class="figma"><i class="fab fa-figma"></i></span>
+                    <small class="name-tool">Figma</small>
+                </div>
+                <div class="col-sm-2">
+                    <span class="tool"><i class="fab fa-github-alt"></i></span>
+                    <small class="name-tool">Github</small>
+                </div>
+                <div class="col-sm-2">
+                    <span class="api"><i class="far fa-window-maximize"></i>
+                        <small class="name-tool"> API</small>
                     </span>
                 </div>
             </div>
             <div class="tools row d-flex justify-content-evenly">
                 <div class="col-sm-2">
-                  <span class="tool"><i class="fas fa-cube"></i></span> 
-                  <small class="name-tool">CodeSandbox</small>
+                    <span class="tool"><i class="fas fa-cube"></i></span>
+                    <small class="name-tool">CodeSandbox</small>
                 </div>
                 <div class="col-sm-2">
-                  <span class="mozilla"><i class="fas fa-globe"></i></span>
-                  <small class="name-tool">Mozilla</small>
+                    <span class="mozilla"><i class="fas fa-globe"></i></span>
+                    <small class="name-tool">Mozilla</small>
                 </div>
                 <div class="col-sm-2">
-                  <span class="fontawesome"><i class="far fa-flag"></i></span>
-                  <small class="name-tool">Font Awesome</small>
+                    <span class="fontawesome"><i class="far fa-flag"></i></span>
+                    <small class="name-tool">Font Awesome</small>
                 </div>
             </div>
         </div>
@@ -218,150 +232,142 @@
             <i class="fas fa-angle-double-down"></i>
         </a>
     </div>
-    <main class="mt-5">
+    <div class="mt-5">
         <div class="container" id="projects">
-            <div class="row d-flex">
-                <h3 class="text-center">Feature Projects</h3>
-                <br>
-                <div class="col text">
-                    <div class="content-box text-center mt-5 mb-5 p-5">
-                        <h4 class="mb-2">Dictionary</h4>
-                        <p class="content">
-                            This is a simple dictionary app that gives you definitions, synonyms, phonetics, and images of a word.
-                            It is created with HTML, CSS, JavaScript, React and Bootstrap.
-                        </p>
-                        <a href="https://dreamy-villani-95e47d.netlify.app/" class="web-link p-3 mb-2" title="Dictionary App live"
-                            target="_blank">
-                            View Project
-                        </a>
-                    </div>
-                </div>
-                <div class="col mt-5">
-                    <img src="/images/dictionary-app.jpg" class="img-fluid rounded p-2"
-                        alt="Dictionary App preview" width="650" />
+            <h3 class="text-center">Feature Projects</h3>
+            <hr>
+            <div class="col mt-5">
+                <img src="/images/daytime-weather-app.jpg" class="img-fluid rounded" alt="Daytime Weather project preview"
+                    width="400" height="400" />
+            </div>
+            <div class="col">
+                <div class="content-box text-center mt-5 mb-5 p-5 shadow-lg rounded">
+                    <h4 class="mb-4">Daytime Weather</h4>
+                    <p class="content mt-3">
+                        A simple nighttime weather app created with HTML,CSS, JavaScript, and Bootstrap.
+                        It allows you to see the weather in any location that is search through an API.
+                    </p>
+                    <a href="https://friendly-bartik-3523eb.netlify.app/" class="web-link p-3 mb-2"
+                        title="Daytime Weather App live" target="_blank">
+                        View Project
+                    </a>
                 </div>
             </div>
-            <div class="row d-flex">
-                <div class="col mt-5">
-                    <img src="/images/react-weather-app.jpg" class="img-fluid rounded p-2"
-                        alt="React App preview" width="650" />
-                </div>
-                <div class="col text">
-                    <div class="content-box text-center mt-5 mb-5 p-5">
-                        <h4 class="mb-4">React Weather</h4>
-                        <p class="content mt-3">
-                            My second weather app project created with HTML, CSS, JavaScript, Bootstrap, and React. 
-                        </p>
-                        <a href="https://nostalgic-pare-8542f0.netlify.app/" class="web-link p-3 mb-2" title="React Weather App live"
-                            target="_blank">
-                            View Project
-                        </a>
-                    </div>
+            <div class="col mt-5">
+                <img src="images/nighttime-weather-app.jpg" class="img-fluid rounded"
+                    alt="Nighttime Weather project preview" width="400" height="400" />
+            </div>
+            <div class="col text">
+                <div class="content-box text-center mt-5 mb-5 p-5 shadow-lg rounded">
+                    <h4 class="mb-4">Nighttime Weather</h4>
+                    <p class="content mt-3">
+                        A simple daytime weather app created with HTML,CSS, JavaScript, and Bootstrap.
+                        It allows you to see the weather in any location that is search through an API.
+                    </p>
+                    <a href="https://friendly-bartik-3523eb.netlify.app/nighttime.html" class="web-link p-3 mb-2"
+                        title="Nighttime Weather App live" target="_blank">
+                        View Project
+                    </a>
                 </div>
             </div>
-            <div class="row d-flex">
-                <div class="col text">
-                    <div class="content-box text-center mt-5 mb-5 p-5">
-                        <h4 class="mb-4">Responsive Website</h4>
-                        <p class="content mt-3">
-                            This is my first responsive website created with CSS, HTML, Flexbox, and Bootstrap.
-                        </p>
-                        <a href="https://competent-sinoussi-c105ab.netlify.app/" class="web-link p-3 mb-2" title="Responsive Website live"
-                            target="_blank">
-                            View Project
-                        </a>
-                    </div>
-                </div>
-                <div class="col mt-5">
-                    <img src="/images/responsive-web(1).jpg" class="img-fluid rounded p-2 border border-dark"
-                        alt="Responsive Website preview" width="650"/>
+            <div class="col mt-5">
+                <img src="/images/signin-form.jpg" class="img-fluid rounded" alt="Sign In From Project Preview" width="1000"
+                    height="1000" />
+            </div>
+            <div class="col">
+                <div class="content-box text-center mt-5 mb-5 p-5 shadow-lg rounded">
+                    <h4 class="mb-4">Sign In Form</h4>
+                    <p class="content mt-3">
+                        A simple sign in form created with HTML, CSS, and Bootstrap.
+                    </p>
+                    <a href="https://boring-hypatia-87a01e.netlify.app/" class="web-link p-3 mb-2" title="Sign In Form live"
+                        target="_blank">
+                        View Project
+                    </a>
                 </div>
             </div>
-            <div class="row d-flex">
-                <div class="col mt-5">
-                    <img src="/images/signin-form.jpg" class="img-fluid rounded p-2"
-                        alt="Sign In From Project Preview" width="650" />
-                </div>
-                <div class="col text">
-                    <div class="content-box text-center mt-5 mb-5 p-5">
-                        <h4 class="mb-4">Sign In Form</h4>
-                        <p class="content mt-3">
-                            A simple sign in form created with HTML, CSS, and Bootstrap. 
-                        </p>
-                        <a href="https://boring-hypatia-87a01e.netlify.app/" class="web-link p-3 mb-2" title="Sign In Form live"
-                            target="_blank">
-                            View Project
-                        </a>
-                    </div>
+            <div class="col mt-5">
+                <img src="/images/responsive-web(1).jpg" class="img-fluid rounded border border-dark"
+                    alt="Responsive Website preview" width="400" height="400" />
+            </div>
+            <div class="col">
+                <div class="content-box text-center mt-5 mb-5 p-5 shadow-lg rounded">
+                    <h4 class="mb-4">Responsive Website</h4>
+                    <p class="content mt-3">
+                        This is my first responsive website created with CSS, HTML, Flexbox, and Bootstrap.
+                    </p>
+                    <a href="https://competent-sinoussi-c105ab.netlify.app/" class="web-link p-3 mb-2"
+                        title="Responsive Website live" target="_blank">
+                        View Project
+                    </a>
                 </div>
             </div>
-            <div class="row d-flex">
-                <div class="col text">
-                    <div class="content-box text-center mt-5 mb-5 p-5">
-                        <h4 class="mb-4">Daytime Weather</h4>
-                        <p class="content mt-3">
-                            A simple nighttime weather app created with HTML,CSS, JavaScript, and Bootstrap.
-                            It allows you to see the weather in any location that is search through an API.
-                        </p>
-                        <a href="https://friendly-bartik-3523eb.netlify.app/" class="web-link p-3 mb-2" title="Daytime Weather App live"
-                            target="_blank">
-                            View Project
-                        </a>
-                    </div>
-                </div>
-                <div class="col mt-5">
-                    <img src="/images/daytime-weather-app.jpg" class="img-fluid rounded p-2"
-                        alt="Daytime Weather project preview" width="650"/>
+            <div class="col mt-5">
+                <img src="/images/react-weather-app.jpg" class="img-fluid rounded" alt="React App preview" width="500"
+                    height="500" />
+            </div>
+            <div class="col text">
+                <div class="content-box text-center mt-5 mb-5 p-5 shadow-lg rounded">    
+                    <h4 class="mb-4">React Weather</h4>
+                    <p class="content mt-3">
+                        My second weather app project created with HTML, CSS, JavaScript, Bootstrap, and React.
+                    </p>
+                    <a href="https://nostalgic-pare-8542f0.netlify.app/" class="web-link p-3 mb-2" title="React Weather App live"
+                        target="_blank">
+                        View Project
+                    </a>
                 </div>
             </div>
-            <div class="row d-flex">
-                <div class="col mt-5">
-                    <img src="/images/nighttime-weather-app.jpg" class="img-fluid rounded p-3" alt="Nighttime Weather project preview"
-                        width="650" />
-                </div>
-                <div class="col text">
-                    <div class="content-box text-center mt-5 mb-5 p-5">
-                        <h4 class="mb-4">Nighttime Weather</h4>
-                        <p class="content mt-3">
-                            A simple daytime weather app created with HTML,CSS, JavaScript, and Bootstrap.
-                            It allows you to see the weather in any location that is search through an API.
-                        </p>
-                        <a href="https://friendly-bartik-3523eb.netlify.app/nighttime.html" class="web-link p-3 mb-2"
-                            title="Nighttime Weather App live" target="_blank">
-                            View Project
-                        </a>
-                    </div>
+            <div class="col mt-5">
+                <img src="/images/dictionary-app.jpg" class="img-fluid rounded border-bottom-0 border border-3 "
+                    alt="Dictionary App preview" width="1000" height="1000" />
+            </div>
+            <div class="col">
+                <div class="content-box text-center mt-5 mb-5 p-5 shadow-lg rounded">
+                    <h4 class="mb-2">Dictionary</h4>
+                    <p class="content">
+                        This is a simple dictionary app that gives you definitions, synonyms, phonetics, and images of a
+                        word.
+                        It is created with HTML, CSS, JavaScript, React and Bootstrap.
+                    </p>
+                    <a href="https://dreamy-villani-95e47d.netlify.app/" class="web-link p-3 mb-2" title="Dictionary App live"
+                        target="_blank">
+                        View Project
+                    </a>
                 </div>
             </div>
         </div>
+    </div>
     </main>
-    <div class="communication d-flex justify-content-evenly" id="communication">
-        <ul class="d-flex justify-content-evenly">
-            <li>
-                <a class="github" href="https://github.com/ASV185" title="Amanda's github" target="_blank">
-                    <img src="images/githubgray.png" alt="Amanda's Github" class="github-link">
-                </a>
-            </li>
-            <li>
-                <a class="instagram" href="https://www.instagram.com/ama_vensaenz/" title="Amanda's instagram" target="_blank">
-                    <img src="images/fillcolorfulinstagram.png" alt="Amanda's Instagram" class="instagram-link">
-                </a>
-            </li>
-            <li>
-                <a class="linkedin" href="https://www.linkedin.com/in/amanda-ventura-070130152/" title="Amanda's linkedin" target="_blank">
-                    <img src="images/fillinlinkedin.png" alt="Amanda's LinkedIn" class="linkedin-link">
-                </a>
-            </li>
-        </ul>
-    </div> 
     <footer>
-        <span class="copy-right"><i class="far fa-copyright"></i></span>
-        All rights reserved. This website is coded by Amanda Ventura and it is
-        <a href="https://github.com/ASV185/my-website" class="git-link" title="project's git-link" target="_blank">
+        <header class="mt-2">
+            <h3>Let's Connect</h3>
+        </header>
+        <div class="communication d-flex justify-content-evenly" id="communication">
+            <ul class="d-flex justify-content-evenly">
+                <li>
+                    <a class="github" href="https://github.com/ASV185" title="Amanda's github" target="_blank">
+                        <img src="images/githubgray.png" alt="Amanda's Github" class="github-link shadow-lg">
+                    </a>
+                </li>
+                <li>
+                    <a class="instagram" href="https://www.instagram.com/ama_vensaenz/" title="Amanda's instagram" target="_blank">
+                        <img src="images/fillcolorfulinstagram.png" alt="Amanda's Instagram" class="instagram-link shadow-lg">
+                    </a>
+                </li>
+                <li>
+                    <a class="linkedin" href="https://www.linkedin.com/in/amanda-ventura-070130152/" title="Amanda's linkedin" target="_blank">
+                        <img src="images/fillinlinkedin.png" alt="Amanda's LinkedIn" class="linkedin-link shadow-lg">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <footer class="all-copy-rights">
+            <span class="copy-right"><i class="far fa-copyright"></i></span>
+            All rights reserved. This website is coded by Amanda Ventura and it is
+            <a href="https://github.com/ASV185/my-website" class="git-link" title="project's git-link" target="_blank">
             open-sourced
-        </a>
-         at
-        <span class="git-link"><i class="fab fa-github-alt"></i></span>
+        </footer>
     </footer>
 </body>
 </html>
