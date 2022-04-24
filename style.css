@@ -606,7 +606,7 @@ h2 {
   }
 
   .hobbies {
-    display:none;
+    text-align: center;
   }
 
   .content-box {
