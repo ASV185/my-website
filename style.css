@@ -175,7 +175,7 @@ i {
   background-color: var(--branding-color);
   font-family: 'Zen Old Mincho',
     serif;
-    text-align: left;
+  text-align: left;
 }
 
 .content-container img {
@@ -224,7 +224,6 @@ i {
 .skill i {
   color: var(--accent-color);
   font-size: 3.5rem;
-  text-align: center;
   margin: 1rem auto;
   transition: transform 1s;
 }
@@ -237,7 +236,6 @@ i {
 .tool i {
   color: var(--accent-color);
   font-size: 3.5rem;
-  text-align: center;
   margin: 1rem auto;
   transition: transform 1s;
 }
@@ -457,7 +455,7 @@ i {
   font-size: 1rem;
   padding:0.5rem 0.75rem;
   margin: 0 1rem;
-  border-radius: 0.75rem;
+  border-radius: 0.75rem;;
 }
 
 .communication li a img:hover {
