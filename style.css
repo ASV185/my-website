@@ -447,6 +447,10 @@ i {
   color: var(--accent-color);
 }
 
+#communication ul {
+ padding: 0;
+}
+
 .communication {
   background-color: var(--third-color);
 }
