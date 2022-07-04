@@ -11,13 +11,13 @@ html {
   --branding-color: hsl(213, 10%, 21%);
   --primary-color: #717d8c;
   --secondary-color: #7197c2;
-  --third-color: #cdcdcd;
+  --third-color: rgb(231, 219, 219);
   --accent-color: black;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
-  background: var(--third-color);
+  background: #fff;
 }
 
 .navbar {
